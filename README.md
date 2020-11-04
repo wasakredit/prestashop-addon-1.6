@@ -11,3 +11,5 @@ Wasa Kredit Checkout provides a payment solution where you can pay through their
 6. Go to Wasa Kredit module administration page.
 7. Fill out the "Client ID" and "Client secret key"
 8. You are ready to use Wasa Kredit services.
+
+If you are looking for the addon for Prestashop 1.7 go here https://github.com/wasakredit/prestashop-addon-1.7/
