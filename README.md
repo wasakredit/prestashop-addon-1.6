@@ -1,7 +1,7 @@
 # Wasa Kredit Checkout
 Wasa Kredit Checkout provides a payment solution where you can pay through their services. Read more about the services on https://developer.wasakredit.se/intro.
 
-# Wasa Kredit Checkout - Installation for prestashop 1.6
+## Wasa Kredit Checkout - Installation for prestashop 1.6
 
 1. Download module from [https://github.com/wasakredit/prestashop-addon-1.6/archive/main.zip](https://github.com/wasakredit/prestashop-addon-1.6/archive/main.zip).
 2. Go to prestashop administration.
@@ -12,4 +12,8 @@ Wasa Kredit Checkout provides a payment solution where you can pay through their
 7. Fill out the "Client ID" and "Client secret key"
 8. You are ready to use Wasa Kredit services.
 
-If you are looking for the addon for Prestashop 1.7 go here https://github.com/wasakredit/prestashop-addon-1.7/
+
+## Supported prestashop
+This module support prestashop version 1.6 up to 1.6.99
+
+If you are looking for the Wasa Kredit Checkout  addon for Prestashop 1.7 go here https://github.com/wasakredit/prestashop-addon-1.7/
