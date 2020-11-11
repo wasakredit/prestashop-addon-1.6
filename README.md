@@ -13,7 +13,7 @@ Wasa Kredit Checkout provides a payment solution where you can pay through their
 8. You are ready to use Wasa Kredit services.
 
 
-## Supported prestashop
+## Requirements
 This module support prestashop version 1.6 up to 1.6.99
 
-If you are looking for the Wasa Kredit Checkout  addon for Prestashop 1.7 go here https://github.com/wasakredit/prestashop-addon-1.7/
+If you are looking for the Wasa Kredit Checkout addon for Prestashop 1.7 go here <br> https://github.com/wasakredit/prestashop-addon-1.7/
