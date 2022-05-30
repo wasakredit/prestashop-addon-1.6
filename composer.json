@@ -1,6 +1,6 @@
 {
-    "name": "wasa/prestashop-module",
-    "description": "Wasa Kredit Ecom platform SDK",
+    "name": "wasa/prestashop-addon-1.6",
+    "description": "Payment extension for Prestashop 1.6",
     "repositories": [
         {
             "type": "vcs",
@@ -8,11 +8,11 @@
         }
     ],
     "require": {
-        "wasa/client-php-sdk": "v3.0"
+        "wasa/client-php-sdk": "dev-master#v3.0"
     },
-    "type": "prestashop-module",
     "config": {
         "preferred-install": "dist",
-        "prepend-autoloader": false
+        "prepend-autoloader": false,
+        "vendor-dir": "wasakredit/vendor/"
     }
 }

@@ -23,7 +23,6 @@ class ClientFactory {
     }
 }
 
-
 class Client
 {
     private $base_url;
@@ -67,14 +66,13 @@ class Client
         '501' => 'Not Implemented',
         '503' => 'Service Unavailable'
     );
-    
+
     public function __construct($clientId, $clientSecret, $base_url,$auth_url )
     {
         $this->base_url = $base_url;
         $this->token_client = new AccessToken($clientId, $clientSecret, $auth_url);
         $this->api_client = new Api($clientId, $clientSecret, $auth_url);
     }
-
 
     public function calculate_monthly_cost($calculateMonthlyCostBody) // @codingStandardsIgnoreLine
     {
@@ -108,10 +106,9 @@ class Client
         return $this->api_client->execute($this->base_url . "/v4/invoice/validate-financed-amount?amount=" . $amount, "GET", null, 2);
     }
 
-
-    public function get_monthly_cost_widget($amount) //@codingStandardsIgnoreLine
+    public function get_monthly_cost_widget($amount, $format = 'large') //@codingStandardsIgnoreLine
     {
-      return $this->api_client->execute($this->base_url . "/v4/leasing/widgets/monthly-cost?amount=".$amount."&currency=SEK", "GET", null, 2);
+      return $this->api_client->execute($this->base_url . "/v4/leasing/widgets/monthly-cost?amount=" . $amount . "&currency=SEK&format=" . $format, "GET", null, 2);
     }
 
     public function add_order_reference($orderId, $orderReferences) // @codingStandardsIgnoreLine
@@ -128,7 +125,7 @@ class Client
     {
         return $this->api_client->execute($this->base_url . "/v4/orders/" . $orderId . "/status", "GET", null);
     }
-    
+
     public function ship_order($orderId) // @codingStandardsIgnoreLine
     {
         return $this->api_client->execute($this->base_url . "/v4/orders/" . $orderId . "/ship" , "POST", null);
@@ -148,5 +145,4 @@ class Client
     {
         return $this->api_client->execute($this->base_url . "/v4/leasing/payment-options?amount=" . $amount, "GET", null);
     }
-
 }

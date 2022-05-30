@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bbe72493c8fa3637709f12a8fb39e0c",
+    "content-hash": "5afac8c2e694e872ce580d2bcdf9138b",
     "packages": [
         {
             "name": "wasa/client-php-sdk",
-            "version": "v3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wasakredit/php-checkout-sdk.git",
-                "reference": "5e36a430694e7f1d3d73c72968ee5d960744b306"
+                "reference": "a8eca895c63e531825fa291e8c4898dbe782635b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wasakredit/php-checkout-sdk/zipball/5e36a430694e7f1d3d73c72968ee5d960744b306",
-                "reference": "5e36a430694e7f1d3d73c72968ee5d960744b306",
+                "url": "https://api.github.com/repos/wasakredit/php-checkout-sdk/zipball/a8eca895c63e531825fa291e8c4898dbe782635b",
+                "reference": "a8eca895c63e531825fa291e8c4898dbe782635b",
                 "shasum": ""
             },
             "require": {
@@ -28,6 +28,7 @@
                 "phpdocumentor/phpdocumentor": "2.*",
                 "phpunit/phpunit": "^5.7"
             },
+            "default-branch": true,
             "type": "library",
             "authors": [
                 {
@@ -41,16 +42,18 @@
             ],
             "description": "PHP SDK for communicating with the Wasa Leasing API",
             "support": {
-                "source": "https://github.com/wasakredit/php-checkout-sdk/tree/v3.0",
+                "source": "https://github.com/wasakredit/php-checkout-sdk/tree/master",
                 "issues": "https://github.com/wasakredit/php-checkout-sdk/issues"
             },
-            "time": "2021-03-17T11:58:38+00:00"
+            "time": "2022-02-16T08:33:57+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wasa/client-php-sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
