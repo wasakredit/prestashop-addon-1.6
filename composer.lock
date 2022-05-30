@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5afac8c2e694e872ce580d2bcdf9138b",
+    "packages": [
+        {
+            "name": "wasa/client-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wasakredit/php-checkout-sdk.git",
+                "reference": "a8eca895c63e531825fa291e8c4898dbe782635b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wasakredit/php-checkout-sdk/zipball/a8eca895c63e531825fa291e8c4898dbe782635b",
+                "reference": "a8eca895c63e531825fa291e8c4898dbe782635b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "^5.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Jim Skogman",
+                    "email": "jim.skogman@starrepublic.com"
+                },
+                {
+                    "name": "Conrad Ohlsson",
+                    "email": "conrad.ohlsson@starrepublic.com"
+                }
+            ],
+            "description": "PHP SDK for communicating with the Wasa Leasing API",
+            "support": {
+                "source": "https://github.com/wasakredit/php-checkout-sdk/tree/master",
+                "issues": "https://github.com/wasakredit/php-checkout-sdk/issues"
+            },
+            "time": "2022-02-16T08:33:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wasa/client-php-sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
