@@ -1,0 +1,41 @@
+/**
+ * 2008 - 2022 Wasa Kredit B2B
+ *
+ * MODULE Wasa Kredit
+ *
+ * @version   1.0.0
+ * @author    Wasa Kredit AB
+ * @link      http://www.wasakredit.se
+ * @copyright Copyright (c) permanent, Wasa Kredit B2B
+ * @license   Wasa Kredit B2B
+ */
+
+@font-face {
+    font-family: 'IntroCondRegular';
+    src: url('intro-cond-regular.woff2') format('woff2'),
+    url('intro-cond-regular.woff') format('woff'),
+    url('intro-cond-regular.ttf') format('truetype');
+}
+
+.wasa_product_item {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+p.payment_module a.wasakredit {
+    background: url(../img/wasakredit.png) 15px 15px no-repeat #fbfbfb;
+}
+
+p.payment_module a.wasakredit:after {
+    display: block;
+    content: '\f054';
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777;
+}

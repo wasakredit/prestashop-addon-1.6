@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8bbe72493c8fa3637709f12a8fb39e0c",
+    "packages": [
+        {
+            "name": "wasa/client-php-sdk",
+            "version": "v3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wasakredit/php-checkout-sdk.git",
+                "reference": "5e36a430694e7f1d3d73c72968ee5d960744b306"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wasakredit/php-checkout-sdk/zipball/5e36a430694e7f1d3d73c72968ee5d960744b306",
+                "reference": "5e36a430694e7f1d3d73c72968ee5d960744b306",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Jim Skogman",
+                    "email": "jim.skogman@starrepublic.com"
+                },
+                {
+                    "name": "Conrad Ohlsson",
+                    "email": "conrad.ohlsson@starrepublic.com"
+                }
+            ],
+            "description": "PHP SDK for communicating with the Wasa Leasing API",
+            "support": {
+                "source": "https://github.com/wasakredit/php-checkout-sdk/tree/v3.0",
+                "issues": "https://github.com/wasakredit/php-checkout-sdk/issues"
+            },
+            "time": "2021-03-17T11:58:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
