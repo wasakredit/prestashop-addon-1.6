@@ -30,7 +30,7 @@ class WasaKredit extends PaymentModule
     {
         $this->name = 'wasakredit';
         $this->tab = 'payments_gateways';
-        $this->version = '1.1.0';
+        $this->version = '1.2.1';
         $this->author = 'Wasa Kredit AB';
         $this->need_instance = 0;
 
